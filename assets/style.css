@@ -1,0 +1,37 @@
+@font-face {
+    font-family: "Poppins";
+    src: url('font/Poppins-Medium.ttf');
+}
+
+@font-face {
+    font-family: "MarckScript";
+    src: url('font/MarckScript-Regular.ttf');
+}
+
+html * {
+    font-family: "Poppins";
+}
+
+.judul {
+    font-family: "MarckScript";
+}
+
+.kotak {
+    box-shadow: 0px 0px 18px rgba(0, 0, 0, 0.8), 0px 0px 6px rgba(0, 0, 0, 0.19);
+    margin: auto;
+    margin-top: 40px;
+    padding: 20px;
+    border: none;
+}
+
+.batas {
+    margin-bottom: 20px;
+}
+
+.thumb {
+    transition: transform.2s;
+}
+
+.thumb:hover {
+    transform: scale(1.75);
+}
