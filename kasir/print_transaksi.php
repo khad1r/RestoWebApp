@@ -30,7 +30,7 @@
 
             <div class="col-8">
                 <?php
-                $conn=mysqli_connect("localhost","root","","db_Restoran");
+                $conn=mysqli_connect("localhost","root","DVN9vpxEQLQEtD","db_Restoran");
                 if(isset($_GET['id'])){
                     $id=$_GET['id'];
                     $cari=mysqli_query($conn,"select * from t_order where id_order='$id'");

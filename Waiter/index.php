@@ -1,5 +1,5 @@
 <?php
-$conn=mysqli_connect("localhost","root","","db_Restoran");
+$conn=mysqli_connect("localhost","root","DVN9vpxEQLQEtD","db_Restoran");
 session_start();
 if(!empty($_SESSION['username'])){
     $user=$_SESSION['username'];

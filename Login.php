@@ -39,7 +39,7 @@ session_start();
                     </a>
                 </form>
                 <?php
-                    $conn=mysqli_connect("localhost","root","","db_Restoran");
+                    $conn=mysqli_connect("localhost","root","DVN9vpxEQLQEtD","db_Restoran");
                     if(isset($_POST['login'])){
                         $a=$_POST['username'];
                         $b=$_POST['pass'];

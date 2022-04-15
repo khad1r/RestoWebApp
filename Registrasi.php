@@ -43,7 +43,7 @@ session_start();
                         </a>
                     </form>
                     <?php
-                        $conn=mysqli_connect("localhost","root","","db_Restoran");
+                        $conn=mysqli_connect("localhost","root","DVN9vpxEQLQEtD","db_Restoran");
                         if(isset($_POST['regis'])){
                             $username=$_POST['username'];
                             $nama=$_POST['nama_user'];

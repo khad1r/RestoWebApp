@@ -40,7 +40,7 @@ session_start();
                         </button>
                     </form>
                     <?php
-                        $conn=mysqli_connect("localhost","root","","db_Restoran");
+                        $conn=mysqli_connect("localhost","root","DVN9vpxEQLQEtD","db_Restoran");
                         if(isset($_POST['regis'])){
                             $nama=$_POST['nama_user'];
                             $date=date('dmY');
